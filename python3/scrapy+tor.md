@@ -138,7 +138,7 @@ class ApiSpider(scrapy.Spider):
 執行爬蟲
 
 ```bash
-scrapy cawle api
+scrapy crawl api
 ```
 
 logging.log檔案將會看出目前的ip為51.75.52.118這即是透過tor來進行替換proxy的部分。  
@@ -225,6 +225,7 @@ class Process_Proxies(RetryMiddleware):
         with Controller.from_port(port=9051) as c:
             c.authenticate()
             c.signal(Signal.NEWNYM)
+
     def process_response(self, request, response, spider):
         if response.status == 200:
             return response
@@ -241,7 +242,6 @@ class Process_Proxies(RetryMiddleware):
             self.dele_proxy(request.meta.get('proxy',False))
             time.sleep(random.randint(1,3))
             self.logger.warning('連線異常,進行重試......')
-
             return self._retry(request,exception,spider)
 ```
 
