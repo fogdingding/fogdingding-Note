@@ -14,4 +14,6 @@
 * [PHP](php/README.md)
   * [composer](php/composer.md)
   * [phpbrew](php/phpbrew.md)
+  * [laravel](php/laravel.md)
+  * [laradock](php/laradock.md)
 
