@@ -16,4 +16,6 @@
   * [phpbrew](php/phpbrew.md)
   * [laravel](php/laravel.md)
   * [laradock](php/laradock.md)
+* [ubuntu](ubuntu/README.md)
+  * [18.04設定自動執行腳本](ubuntu/18.04-she-ding-zi-dong-zhi-hang-jiao-ben.md)
 
