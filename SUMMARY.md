@@ -2,6 +2,7 @@
 
 * [fogdingding-Note](README.md)
 * [python3](python3/README.md)
+  * [print](python3/print.md)
   * [Scrapy](python3/scrapy.md)
   * [Scrapy-Ptt範例](python3/scrapyptt-fan-li.md)
   * [Scrapy基本設定](python3/scrapy-ji-ben-she-ding.md)
