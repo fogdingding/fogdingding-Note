@@ -1,4 +1,4 @@
-# VScode
+# command+d
 
 ###  好用快捷鍵
 
