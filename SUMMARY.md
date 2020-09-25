@@ -32,4 +32,6 @@
 * [mac](mac/README.md)
   * [好用的套件](mac/hao-yong-de-tao-jian.md)
   * [好用快捷鍵](mac/hao-yong-kuai-jie-jian.md)
+* [shibaknow](shibaknow/README.md)
+  * [市值營收比](shibaknow/shi-zhi-ying-shou-bi.md)
 
