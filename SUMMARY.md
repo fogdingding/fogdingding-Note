@@ -33,6 +33,7 @@
   * [好用的套件](mac/hao-yong-de-tao-jian.md)
   * [好用快捷鍵](mac/hao-yong-kuai-jie-jian.md)
 * [shibaknow](shibaknow/README.md)
+  * [利潤比率](shibaknow/li-run-bi-lv.md)
   * [ROE及ROA](shibaknow/roe-ji-roa.md)
   * [經營能力](shibaknow/jing-ying-neng-li.md)
   * [償債能力](shibaknow/chang-zhai-neng-li.md)
