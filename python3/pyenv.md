@@ -40,6 +40,9 @@ eval "$(pyenv virtualenv-init -)"
 ### 測試成功否
 
 ```bash
+ # 查看現有可安裝版本
+pyenv install -l
+
 # 安裝別的版本
 pyenv install 3.7.4
 
