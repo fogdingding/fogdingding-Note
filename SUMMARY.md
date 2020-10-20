@@ -34,7 +34,7 @@
   * [好用的套件](mac/hao-yong-de-tao-jian.md)
   * [好用快捷鍵](mac/hao-yong-kuai-jie-jian.md)
 * [shibaknow](shibaknow/README.md)
-  * [本益比](shibaknow/ben-yi-bi.md)
+  * [本益比](shibaknow/per.md)
   * [EPS](shibaknow/eps.md)
   * [成長能力](shibaknow/cheng-chang-neng-li.md)
   * [利潤比率](shibaknow/li-run-bi-lv.md)
