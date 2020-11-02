@@ -38,7 +38,7 @@ services:
       networks:
         - backend
 ### MySQL2 ################################################
-## 改寫 MYSQL_PORT2、DATA_PATH_HOST2、MYSQL_ENTRYPOINT_INITDB2
+## 改寫 context、MYSQL_PORT2、DATA_PATH_HOST2、MYSQL_ENTRYPOINT_INITDB2
     mysql2:
       build:
         context: ./mysql2
@@ -218,7 +218,8 @@ mysql -u root -p
 STOP SLAVE;
  
 CHANGE MASTER TO
-  MASTER_HOST='mysql-master',
+## 反過來的時候，就打mysql2
+  MASTER_HOST='mysql',
   MASTER_USER='replication',
   MASTER_PASSWORD='<password>',
   MASTER_LOG_FILE='mysql-bin.000003',
