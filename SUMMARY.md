@@ -18,6 +18,7 @@
   * [composer](php/composer.md)
   * [phpbrew](php/phpbrew.md)
   * [laravel](php/laravel.md)
+  * [laravel-OAuth2](php/laravel-oauth2.md)
   * [laradock](php/laradock.md)
   * [laradock-mysql 主從設定](php/laradockmysql-zhu-cong-she-ding.md)
 * [ubuntu](ubuntu/README.md)
