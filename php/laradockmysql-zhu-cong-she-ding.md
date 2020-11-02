@@ -234,6 +234,26 @@ SHOW SLAVE STATUS\G;
 上述 `Slave_IO_Running`: `Yes` 和 `Slave_SQL_Running`: `Yes` 就表示主從關西設定完成。  
 然後如果有error上面會顯示error狀態碼跟訊息～
 
+{% hint style="warning" %}
+這邊是教學主從設定，因此反過來對mysql2\(主\)、mysql\(從\)就可以達成正常兩邊都是主從了。  
+但是有可能會有碰撞的機率誕生，建議還是普通的使用吧。  
+  
+如果要真正的主從的話，  
+要記得把從的設定檔案\(my.cnf\)修改這兩個唷～
+
+```bash
+sync_binlog        = 0
+read_only          = 1
+```
+{% endhint %}
+
+### 資料來源
+
+* [部落客教學](https://blog.toright.com/posts/5062/mysql-replication-%e4%b8%bb%e5%be%9e%e5%bc%8f%e6%9e%b6%e6%a7%8b%e8%a8%ad%e5%ae%9a%e6%95%99%e5%ad%b8.html)
+* [部落客設定檔案教學](https://blog.toright.com/posts/4912/%E6%B7%BA%E8%AB%87-mysql-%E6%95%88%E8%83%BD%E9%81%8B%E4%BD%9C%E6%A9%9F%E5%88%B6.html)
+* [主從設定錯誤教學](https://blog.csdn.net/G_LiQing/article/details/92707941)
+* [部落客介紹](https://kknews.cc/code/l3b3eeb.html)
+
   
 
 
