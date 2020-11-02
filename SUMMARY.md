@@ -19,6 +19,7 @@
   * [phpbrew](php/phpbrew.md)
   * [laravel](php/laravel.md)
   * [laradock](php/laradock.md)
+  * [laradock-mysql 主從設定](php/laradockmysql-zhu-cong-she-ding.md)
 * [ubuntu](ubuntu/README.md)
   * [tmux](ubuntu/tmux.md)
   * [快捷鍵-歷史查詢](ubuntu/kuai-jie-jian-li-shi-cha-xun.md)
