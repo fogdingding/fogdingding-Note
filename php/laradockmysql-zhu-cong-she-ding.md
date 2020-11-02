@@ -231,5 +231,9 @@ SHOW SLAVE STATUS\G;
 
 ![](../.gitbook/assets/jie-tu-20201102-xia-wu-1.07.44.png)
 
-設定
+上述 `Slave_IO_Running`: `Yes` 和 `Slave_SQL_Running`: `Yes` 就表示主從關西設定完成。  
+然後如果有error上面會顯示error狀態碼跟訊息～
+
+  
+
 
