@@ -31,6 +31,7 @@
   * [ssh tunnel](ubuntu/ssh-tunnel.md)
 * [GIT](git/README.md)
   * [如果想要複製別人專案](git/ru-guo-xiang-yao-fu-zhi-bie-ren-zhuan-an.md)
+  * [新增ssh](git/xin-zeng-ssh.md)
 * [vscode](vscode/README.md)
   * [command+d](vscode/vscode.md)
   * [koroFileHeader](vscode/korofileheader.md)
