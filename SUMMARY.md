@@ -4,6 +4,7 @@
 * [DB](db/README.md)
   * [postgres](db/postgres.md)
 * [python3](python3/README.md)
+  * [import上一層目錄](python3/import-shang-yi-ceng-mu-lu.md)
   * [pyenv](python3/pyenv.md)
   * [print](python3/print.md)
   * [Scrapy](python3/scrapy.md)
