@@ -16,6 +16,12 @@ brew install tor
 brew install polipo
 ```
 
+{% hint style="warning" %}
+tor 要記得去更改torcc
+
+[教學網站](https://github.com/DedSecInside/TorBoT/blob/master/Tor.md)
+{% endhint %}
+
 安裝完畢後將進行新增檔案
 
 ```bash
