@@ -17,6 +17,7 @@
   * [unity-ios-App](unity/unity-ios-app.md)
   * [Shaders-Section範例](unity/shaderssection-fan-li.md)
 * [Tool](tool/README.md)
+  * [code-server](tool/code-server.md)
   * [sourcetree](tool/sourcetree.md)
   * [Postman](tool/postman.md)
 * [PHP](php/README.md)
