@@ -4,7 +4,7 @@
 
 ```bash
 cd ~/.ssh
-ssh-keygen -f test -P '' -N ''
+ssh-keygen -f test -P '' -N '' -C '備註'
 ```
 
 就能產生公私密鑰了
