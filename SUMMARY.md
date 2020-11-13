@@ -1,6 +1,8 @@
 # Table of contents
 
 * [fogdingding-Note](README.md)
+* [network](network/README.md)
+  * [確認連線](network/que-ren-lian-xian.md)
 * [DB](db/README.md)
   * [postgres](db/postgres.md)
 * [python3](python3/README.md)
