@@ -7,3 +7,5 @@
 * [磁碟規劃](https://www.freebsd.org/doc/zh_TW/books/handbook/bsdinstall-partitioning.html)
 * [iso下載](https://www.freebsd.org/where.html)
 
+
+

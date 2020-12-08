@@ -5,7 +5,6 @@
 ```csharp
 # 查看目前硬碟有哪些
 diskutil list
-
 ```
 
 ```bash
