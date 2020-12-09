@@ -10,10 +10,3 @@ from datetime import date
 parse(date.today().strftime("%Y-%m-%d"))
 ```
 
-```python
-import datetime
-import time
-publishAt = 1585064773
-date = datetime.datetime.fromtimestamp(publishAt)
-```
-
