@@ -89,3 +89,55 @@ CMD ["python3"]
 docker run --gpus device=0 ....
 ```
 
+### 安裝教學
+
+安裝ＧＰＵ
+
+```bash
+ # 確定有沒有在
+ sudo lshw -c display | grep NVIDIA
+ 
+ # install gpu drive
+ sudo Ubuntu-drivers devices
+ sudo apt install nvidia-driver-450
+ sudo reboot
+ nvidia-smi
+```
+
+安裝docker-nvidia
+
+```bash
+# Docker
+sudo apt-get update
+sudo apt-get remove docker docker-engine docker.io
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
+
+# Put the user in the docker group
+sudo usermod -a -G docker $USER
+newgrp docker
+
+# Nvidia Docker
+sudo apt install curl
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+sudo systemctl restart docker
+
+```
+
+```bash
+# build and start docker
+mkdir test
+cd test
+vim Dockerfile
+docker build -t cuda11 .
+docker run --gpus device=0 -it cuda11 bash
+# check yes or no
+nvidia-smi 
+```
+
