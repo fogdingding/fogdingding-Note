@@ -38,11 +38,11 @@ RUN apt-get update -y && \
 RUN mkdir /app
 WORKDIR /app
 
-# Create a non-root user and switch to it
+## Create a non-root user and switch to it
 RUN adduser --disabled-password --gecos '' --shell /bin/bash user \
  && chown -R user:user /app
 RUN echo "user ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-user
-USER user
+#USER user
 
 # All users can use /home/user as their home directory
 ENV HOME=/home/user
@@ -135,9 +135,20 @@ sudo systemctl restart docker
 mkdir test
 cd test
 vim Dockerfile
+mkdir tmp
 docker build -t cuda11 .
-docker run --gpus device=0 -it cuda11 bash
+docker run --gpus device=0 -it -v ./tmp cuda11 bash
 # check yes or no
 nvidia-smi 
+```
+
+```bash
+conda env list
+source activate base
+##
+python3
+import torch
+x = torch.rand(5, 3)
+print(x)
 ```
 
