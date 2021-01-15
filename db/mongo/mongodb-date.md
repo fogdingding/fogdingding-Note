@@ -4,6 +4,17 @@ description: 使用python3或其他語言再存入mongo的時候需要注意的�
 
 # mongoDB-date
 
+## mongo
+
+```python
+db.getCollection('MoneyDj').find().forEach(function(data){
+    data.newsDateTime = ISODate(data.newsDate);
+    db.getCollection('MoneyDj').save(data);
+    });
+```
+
+## python
+
 ```python
 from dateutil.parser import parse
 from datetime import date
