@@ -13,10 +13,13 @@ file = "30M.mp4"
 print(ffmpeg.probe(file)['format']['duration'])
 
 probe = ffmpeg.probe(file)
-video = next((stream for stream in probe['streams'] if stream['codec_type'] == 'video'), None)
-width = int(video['width'])
-height = int(video['height'])
+video_info = next((stream for stream in probe['streams'] if stream['codec_type'] == 'video'), None)
+width = int(video_info['width'])
+height = int(video_info['height'])
 print(width, height)
+
+# if want to get more
+print(video_info)
 ```
 
 ## 
