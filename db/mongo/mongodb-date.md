@@ -7,9 +7,9 @@ description: 使用python3或其他語言再存入mongo的時候需要注意的�
 ## mongo
 
 ```python
-db.getCollection('MoneyDj').find().forEach(function(data){
+db.getCollection('xxxx').find().forEach(function(data){
     data.newsDateTime = ISODate(data.newsDate);
-    db.getCollection('MoneyDj').save(data);
+    db.getCollection('xxx').save(data);
     });
 ```
 
