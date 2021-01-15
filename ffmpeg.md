@@ -22,6 +22,17 @@ print(width, height)
 print(video_info)
 ```
 
+## 轉檔\(解析度\)
+
+透過 `scale` 來依照比例進行解析度轉換。  
+備註：如果需要撲滿整個比例，需要加上 `setdar` 。  
+
+
+```bash
+ffmpeg -i in.mp4 -vf scale=320:240 out.mp4
+ffmpeg -i in.mp4 -vf scale=320:240,setdar=4:3 out.mp4
+```
+
 ## 
 
 
