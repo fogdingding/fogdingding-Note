@@ -73,4 +73,5 @@
   * [經營能力](shibaknow/jing-ying-neng-li.md)
   * [償債能力](shibaknow/chang-zhai-neng-li.md)
   * [市值營收比](shibaknow/shi-zhi-ying-shou-bi.md)
+* [ffmpeg](ffmpeg.md)
 
