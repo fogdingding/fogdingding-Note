@@ -61,7 +61,7 @@
   * [command+d](vscode/vscode.md)
   * [koroFileHeader](vscode/korofileheader.md)
 * [mac](mac/README.md)
-  * [m1](mac/m1.md)
+  * [m1-homebrew](mac/m1.md)
   * [建立使用者](mac/jian-li-shi-yong-zhe.md)
   * [DD 燒入](mac/untitled.md)
   * [好用的套件](mac/hao-yong-de-tao-jian.md)
