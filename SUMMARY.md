@@ -76,4 +76,6 @@
   * [償債能力](shibaknow/chang-zhai-neng-li.md)
   * [市值營收比](shibaknow/shi-zhi-ying-shou-bi.md)
 * [ffmpeg](ffmpeg.md)
+* [vue](vue/README.md)
+  * [Component-傳遞資料\(props、emit\)](vue/component-chuan-di-zi-liao-propsemit.md)
 
