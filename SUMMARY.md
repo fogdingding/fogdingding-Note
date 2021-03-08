@@ -9,6 +9,7 @@
   * [inline & block](css/inline-and-block.md)
   * [Reset and Normalize](css/untitled.md)
 * [docker](docker/README.md)
+  * [run shell](docker/run-shell.md)
   * [crontab](docker/crontab.md)
   * [nvidia-docker](docker/nvidia-docker.md)
 * [proxmox ve](proxmox-ve/README.md)
