@@ -150,6 +150,7 @@ export default {
   * **主要用來存放狀態**
 * \*\*\*\*[**Getters**](https://next.vuex.vuejs.org/guide/getters.html)\*\*\*\*
   * **主要用來獲取狀態Sate內的資料**
+  * **如果要使用，需搭配**[mapGetters](https://next.vuex.vuejs.org/guide/getters.html#the-mapgetters-helper)
 * \*\*\*\*[**Mutations**](https://next.vuex.vuejs.org/guide/mutations.html)\*\*\*\*
   * **函數，負責修改狀態**
 * \*\*\*\*[**Actions**](https://next.vuex.vuejs.org/guide/actions.html)\*\*\*\*
