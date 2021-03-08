@@ -161,4 +161,5 @@ export default {
 ### 參考連結
 
 * [官方連結](https://next.vuex.vuejs.org/)
+* [vuex-persistedstate 持久化套件](https://www.npmjs.com/package/vuex-persistedstate)
 
