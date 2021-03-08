@@ -113,6 +113,50 @@ app.use(store).use(router).use(VueLazyLoad).mount('#app');
 
 ```
 
+### 某一個components
+
+```javascript
+<template>
+  ...
+  {{ data }}
+  ...
+</template>
+
+<script>
+import { useStore } from 'vuex';
+export default {
+  setup() {
+    const store = useStore();
+    const data = store.dispatch('user/login', result.data);
+    return {
+      data,
+    }
+  },
+}
+</script>
+```
+
+### 流程介紹
+
+首先我們會在某一個`components`裡面去引用`vuex` \(`import { useStore } from 'vuex';`\)，然後宣告\(`const store = useStore();`\)，並使用\(`store.dispatch('user/login', result.data);`\)去呼叫`user.js` 內的 `actions` 的 `login` 函數。 
+
+接下來會在呼叫內部的 `mutation`的函數作為運作，去修改內部資料或其他操作。
+
+### 模型介紹
+
+每一個`vues` \(`index.js`\)內都會有五種屬性
+
+* \*\*\*\*[**State**](https://next.vuex.vuejs.org/guide/state.html)\*\*\*\*
+  * **主要用來存放狀態**
+* \*\*\*\*[**Getters**](https://next.vuex.vuejs.org/guide/getters.html)\*\*\*\*
+  * **主要用來獲取狀態Sate內的資料**
+* \*\*\*\*[**Mutations**](https://next.vuex.vuejs.org/guide/mutations.html)\*\*\*\*
+  * **函數，負責修改狀態**
+* \*\*\*\*[**Actions**](https://next.vuex.vuejs.org/guide/actions.html)\*\*\*\*
+  * **函數，負責呼叫**Mutations
+* \*\*\*\*[**Modules**](https://next.vuex.vuejs.org/guide/modules.html)\*\*\*\*
+  * 可以把上面四個打包成一個模組化的系統，如同上面的範例。
+
 ### 參考連結
 
 * [官方連結](https://next.vuex.vuejs.org/)
