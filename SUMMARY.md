@@ -84,4 +84,5 @@
 * [vue](vue/README.md)
   * [Component-傳遞資料\(props、emit\)](vue/component-chuan-di-zi-liao-propsemit.md)
   * [vuex](vue/vuex.md)
+* [nginx](nginx.md)
 
