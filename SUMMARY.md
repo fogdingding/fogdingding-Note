@@ -50,6 +50,7 @@
   * [laradock](php/laradock.md)
   * [laradock-mysql 主從設定](php/laradockmysql-zhu-cong-she-ding.md)
 * [ubuntu](ubuntu/README.md)
+  * [重播](ubuntu/zhong-bo.md)
   * [找尋資料夾的內容檔案大小](ubuntu/zhao-xun-zi-liao-ga-de-nei-rong-dang-an-da-xiao.md)
   * [tmux](ubuntu/tmux.md)
   * [快捷鍵-歷史查詢](ubuntu/kuai-jie-jian-li-shi-cha-xun.md)
